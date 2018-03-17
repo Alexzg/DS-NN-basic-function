@@ -1,0 +1,16 @@
+# DS_NN_basic_function_r3 description
+# Data:
+For each medical diagnosis case, a folder exists containing measurements in "csv" files and a text file with the diagnosis name
+
+# Code:
+1. The measurements are imported into a pandas Dataframe and the diagnosis name is added to that same Dataframe
+2. Because this is a Binary Classifier, only two cases are imported at the moment (F10_300 & F30_900).
+3. The Neural Network has 10 Inputs and 3 hidden layers.
+
+In order to find the accuracy of the Classifier, the Test set is used.
+The Labels of the "Test set" are compared to the Classifier's prediction outcome.
+
+UPDATES:
+1. Categorical Classifier (Softmax) - 4 Classes
+2. Code modifications for model training with softmax
+3. Code modifications for predictions with softmax
